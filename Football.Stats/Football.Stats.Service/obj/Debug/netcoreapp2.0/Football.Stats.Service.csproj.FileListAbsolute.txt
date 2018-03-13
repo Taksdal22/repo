@@ -1,0 +1,11 @@
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\bin\Debug\netcoreapp2.0\Football.Stats.Service.deps.json
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\bin\Debug\netcoreapp2.0\Football.Stats.Service.runtimeconfig.json
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\bin\Debug\netcoreapp2.0\Football.Stats.Service.runtimeconfig.dev.json
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\bin\Debug\netcoreapp2.0\Football.Stats.Service.dll
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\bin\Debug\netcoreapp2.0\Football.Stats.Service.pdb
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.csprojResolveAssemblyReference.cache
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.csproj.CoreCompileInputs.cache
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.AssemblyInfoInputs.cache
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.AssemblyInfo.cs
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.dll
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.pdb
