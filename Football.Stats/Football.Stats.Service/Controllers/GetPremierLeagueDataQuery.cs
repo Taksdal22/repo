@@ -4,6 +4,9 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Football.Stats.Contracts;
 using Football.Stats.Service.Infrastructure;
+using Football.Stats.Service.Models;
+using Newtonsoft.Json;
+using System.Linq;
 
 namespace Football.Stats.Service.Controllers
 {
@@ -19,9 +22,11 @@ namespace Football.Stats.Service.Controllers
         {
             using (var client = new HttpClient())
             {
-              
-                var result = await client.GetAsync(string.Format("http://api.football-data.org/v1/competitions/?season={0}",Year));
-                return result.Content.ToString();
+                var json = await client.GetStringAsync(string.Format("http://api.football-data.org/v1/competitions/?season={0}",Year));
+                var tmp = JsonConvert.DeserializeObject<List<LeagueDto>>(json);
+                var premierLeague = tmp.SingleOrDefault(x => x.League == "PL");
+
+                return json;
             }
         }
     }

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{4D543A4B-2FAD-4FC3-950C-7A032011404D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Football.Stats.Service/Program.cs">
+    <Files>
+      <File FileName="Football.Stats.Service/Startup.cs" Line="6" Column="25" />
+      <File FileName="Football.Stats.Web/Football.Stats.Web.csproj" Line="1" Column="1" />
+      <File FileName="Football.Stats.Service/Controllers/GetPremierLeagueDataQuery.cs" Line="28" Column="17" />
+      <File FileName="Football.Stats.Service/Controllers/ValuesController.cs" Line="24" Column="26" />
+      <File FileName="Football.Stats.Contracts/LeagueDto.cs" Line="14" Column="47" />
+      <File FileName="Football.Stats.Contracts/TeamDto.cs" Line="3" Column="1" />
+      <File FileName="Football.Stats.Service/Models/League.cs" Line="1" Column="40" />
+      <File FileName="Football.Stats.Service/Models/Team.cs" Line="6" Column="36" />
+      <File FileName="Football.Stats.Service/Models/MatchDay.cs" Line="6" Column="36" />
+      <File FileName="Football.Stats.Service/Program.cs" Line="18" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Torstein/Documents/Source/repo/Football.Stats/Football.Stats.Service/Controllers/GetPremierLeagueDataQuery.cs" relfile="Football.Stats.Service/Controllers/GetPremierLeagueDataQuery.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Football.Stats.Service PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

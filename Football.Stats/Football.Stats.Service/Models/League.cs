@@ -1,11 +1,11 @@
-﻿namespace Football.Stats.Contracts
+﻿namespace Football.Stats.Service.Models
 {
-    public class LeagueDto
+    public class League
     {
         public int Id { get; set; }
         public string Caption { get; set; }
 
-        public string League { get; set; }
+        public string LeagueName { get; set; }
         public int Year { get; set; }
 
         public int NumberOfMatchdays { get; set; }
