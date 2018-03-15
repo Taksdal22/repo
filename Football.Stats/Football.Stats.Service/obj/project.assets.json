@@ -15,6 +15,20 @@
           "lib/netstandard1.1/Autofac.dll": {}
         }
       },
+      "Autofac.Extensions.DependencyInjection/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "4.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
       "AutoMapper/6.2.2": {
         "type": "package",
         "dependencies": {
@@ -4817,6 +4831,17 @@
         "lib/net45/Autofac.xml",
         "lib/netstandard1.1/Autofac.dll",
         "lib/netstandard1.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/4.2.1": {
+      "sha512": "0ksOl5haq1qEVWe2JL8gPlMqU5IDhYEAoOOXiaH3NNemsFSf6aoTVQRsqKLHy4j2CwK9wHQAoIVm+iUy+o0ypQ==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/4.2.1",
+      "files": [
+        "autofac.extensions.dependencyinjection.4.2.1.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.xml"
       ]
     },
     "AutoMapper/6.2.2": {
@@ -12651,6 +12676,7 @@
     ".NETCoreApp,Version=v2.0": [
       "AutoMapper >= 6.2.2",
       "Autofac >= 4.6.2",
+      "Autofac.Extensions.DependencyInjection >= 4.2.1",
       "EntityFramework >= 6.2.0",
       "Football.Stats.Contracts >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.6",
@@ -12658,35 +12684,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/Torstein/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Torstein\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Torstein/Documents/Source/repo/Football.Stats/Football.Stats.Service/Football.Stats.Service.csproj",
+      "projectUniqueName": "D:\\Repo\\Privat\\repo\\Football.Stats\\Football.Stats.Service\\Football.Stats.Service.csproj",
       "projectName": "Football.Stats.Service",
-      "projectPath": "/Users/Torstein/Documents/Source/repo/Football.Stats/Football.Stats.Service/Football.Stats.Service.csproj",
-      "packagesPath": "/Users/Torstein/.nuget/packages/",
-      "outputPath": "/Users/Torstein/Documents/Source/repo/Football.Stats/Football.Stats.Service/obj",
+      "projectPath": "D:\\Repo\\Privat\\repo\\Football.Stats\\Football.Stats.Service\\Football.Stats.Service.csproj",
+      "packagesPath": "C:\\Users\\Torstein\\.nuget\\packages\\",
+      "outputPath": "D:\\Repo\\Privat\\repo\\Football.Stats\\Football.Stats.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Torstein/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Torstein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://sdir-ta-build01:8080/guestAuth/app/nuget/v1/FeedService.svc": {},
+        "http://sdir-utv-tfs01.sjofartsdir.local:5555/nuget/": {},
+        "http://www.myget.org/F/geckopublic/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/Torstein/Documents/Source/repo/Football.Stats/Football.Stats.Contracts/Football.Stats.Contracts.csproj": {
-              "projectPath": "/Users/Torstein/Documents/Source/repo/Football.Stats/Football.Stats.Contracts/Football.Stats.Contracts.csproj"
+            "D:\\Repo\\Privat\\repo\\Football.Stats\\Football.Stats.Contracts\\Football.Stats.Contracts.csproj": {
+              "projectPath": "D:\\Repo\\Privat\\repo\\Football.Stats\\Football.Stats.Contracts\\Football.Stats.Contracts.csproj"
             }
           }
         }
@@ -12700,27 +12731,30 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
+          "AutoMapper": {
             "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
+            "version": "[6.2.2, )"
           },
           "Autofac": {
             "target": "Package",
-            "version": "4.6.2"
+            "version": "[4.6.2, )"
           },
-          "Microsoft.AspNetCore.All": {
+          "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
-            "version": "2.0.6"
+            "version": "[4.2.1, )"
           },
           "EntityFramework": {
             "target": "Package",
-            "version": "6.2.0"
+            "version": "[6.2.0, )"
           },
-          "AutoMapper": {
+          "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "6.2.2"
+            "version": "[2.0.6, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [

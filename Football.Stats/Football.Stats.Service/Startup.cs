@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Autofac;
+using Football.Stats.Service.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -15,6 +17,7 @@ namespace Football.Stats.Service
     {
         public Startup(IConfiguration configuration)
         {
+
             Configuration = configuration;
         }
 
@@ -27,6 +30,11 @@ namespace Football.Stats.Service
             
         }
 
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new StatsAutofacModule());
+        }
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
@@ -34,8 +42,7 @@ namespace Football.Stats.Service
             {
                 app.UseDeveloperExceptionPage();
             }
-            
-
+           
             app.UseMvc();
         }
     }

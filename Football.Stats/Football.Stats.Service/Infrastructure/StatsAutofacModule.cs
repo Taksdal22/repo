@@ -6,6 +6,7 @@ namespace Football.Stats.Service.Infrastructure
     {
         protected override void Load(ContainerBuilder builder)
         {
+
         }
     }
 }
