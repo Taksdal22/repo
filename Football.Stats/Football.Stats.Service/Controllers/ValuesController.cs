@@ -18,9 +18,10 @@ namespace Football.Stats.Service.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<string> Get(int id)
         {
-            return "value";
+            var tmp = new GetPremierLeagueDataQuery(id);
+            return await tmp.Handle();
         }
 
         // POST api/values

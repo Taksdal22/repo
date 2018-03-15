@@ -9,3 +9,6 @@ D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.
 D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.AssemblyInfo.cs
 D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.dll
 D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.pdb
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\bin\Debug\netcoreapp2.0\Football.Stats.Contracts.dll
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\bin\Debug\netcoreapp2.0\Football.Stats.Contracts.pdb
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Service\obj\Debug\netcoreapp2.0\Football.Stats.Service.csproj.CopyComplete

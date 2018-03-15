@@ -1,0 +1,8 @@
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Contracts\bin\Debug\netcoreapp2.0\Football.Stats.Contracts.deps.json
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Contracts\bin\Debug\netcoreapp2.0\Football.Stats.Contracts.dll
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Contracts\bin\Debug\netcoreapp2.0\Football.Stats.Contracts.pdb
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Contracts\obj\Debug\netcoreapp2.0\Football.Stats.Contracts.csproj.CoreCompileInputs.cache
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Contracts\obj\Debug\netcoreapp2.0\Football.Stats.Contracts.AssemblyInfoInputs.cache
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Contracts\obj\Debug\netcoreapp2.0\Football.Stats.Contracts.AssemblyInfo.cs
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Contracts\obj\Debug\netcoreapp2.0\Football.Stats.Contracts.dll
+D:\Repo\Privat\repo\Football.Stats\Football.Stats.Contracts\obj\Debug\netcoreapp2.0\Football.Stats.Contracts.pdb
