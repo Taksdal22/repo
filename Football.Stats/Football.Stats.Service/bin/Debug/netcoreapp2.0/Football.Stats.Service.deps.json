@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "28012dd2779b635b189ddc51986231feeb9acb72"
+    "signature": "780eb8aa2d1409df1eb86a64627e870005877094"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
         "dependencies": {
           "AutoMapper": "6.2.2",
           "Autofac": "4.6.2",
+          "Autofac.Extensions.DependencyInjection": "4.2.1",
           "EntityFramework": "6.2.0",
           "Football.Stats.Contracts": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.6",
@@ -47,6 +48,19 @@
         },
         "compile": {
           "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/4.2.1": {
+        "dependencies": {
+          "Autofac": "4.6.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
         }
       },
       "AutoMapper/6.2.2": {
@@ -4039,6 +4053,13 @@
       "sha512": "sha512-wKI7F6+n45gqfq0T8FuB3hFzaCkuegiFo5in6uB1y2Ai9ZYcjue8yqk3yzyNEwBDS7AyvlTUGSoNovwpUuKqTw==",
       "path": "autofac/4.6.2",
       "hashPath": "autofac.4.6.2.nupkg.sha512"
+    },
+    "Autofac.Extensions.DependencyInjection/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ksOl5haq1qEVWe2JL8gPlMqU5IDhYEAoOOXiaH3NNemsFSf6aoTVQRsqKLHy4j2CwK9wHQAoIVm+iUy+o0ypQ==",
+      "path": "autofac.extensions.dependencyinjection/4.2.1",
+      "hashPath": "autofac.extensions.dependencyinjection.4.2.1.nupkg.sha512"
     },
     "AutoMapper/6.2.2": {
       "type": "package",
