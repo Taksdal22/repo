@@ -29,6 +29,7 @@
           "EntityFramework": "6.2.0",
           "Football.Stats.Contracts": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
           "Microsoft.NETCore.App": "2.0.0"
         },
         "runtime": {

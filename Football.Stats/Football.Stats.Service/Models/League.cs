@@ -1,7 +1,10 @@
-﻿namespace Football.Stats.Service.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Football.Stats.Service.Models
 {
     public class League
     {
+        [Key]
         public int Id { get; set; }
         public string Caption { get; set; }
 
